@@ -57,6 +57,9 @@ WHERE
 ORDER BY salary_year_avg DESC    
 LIMIT 10;
 
+```
+
+```sql
 WITH top_paying_jobs AS(
 SELECT
     job_id,
@@ -73,7 +76,9 @@ WHERE
 ORDER BY salary_year_avg DESC    
 LIMIT 10 
 )
+```
 
+```sql
 SELECT top_paying_jobs.*, skills
 FROM top_paying_jobs
 INNER JOIN skills_job_dim
@@ -94,7 +99,9 @@ WHERE job_title_short = 'Data Analyst' AND job_location LIKE '%UK%'
 GROUP BY skills
 ORDER BY demand_count DESC    
 LIMIT 5;
+```
 
+```sql
 WITH skills_demand AS (
     SELECT 
         skills_dim.skill_id,
@@ -135,6 +142,7 @@ INNER JOIN average_salary
 WHERE demand_count > 100    
 ORDER BY  salary_year_avg DESC, demand_count DESC
 LIMIT 25;
+```
 
 ## Database Management
 
