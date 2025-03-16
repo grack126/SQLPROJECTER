@@ -144,6 +144,57 @@ ORDER BY  salary_year_avg DESC, demand_count DESC
 LIMIT 25;
 ```
 
+## Main Results
+### Top_Paying_Jobs_UK:
+
+| job_id  | job_title                        | job_location           | job_schedule_type | salary_year_avg | job_posted_date       | company_name  |
+|---------|----------------------------------|------------------------|-------------------|-----------------|-----------------------|---------------|
+| 159866  | Research Engineer, Science       | London, UK             | Full-time         | 177283.0        | 2023-06-28 21:00:41   | DeepMind      |
+| 258461  | Data Architect                   | Bristol, UK            | Full-time         | 165000.0        | 2023-02-13 16:32:46   | AND Digital   |
+| 1563887 | Data Architect                   | Cambridge, UK          | Full-time         | 165000.0        | 2023-08-17 12:17:54   | Darktrace     |
+| 478395  | Data Architect                   | London, UK             | Full-time         | 163782.0        | 2023-03-01 22:26:19   | Logispin      |
+| 585859  | Research Scientist, Science      | London, UK             | Full-time         | 149653.0        | 2023-06-29 19:18:22   | DeepMind      |
+| 217504  | Analytics Engineer - ENA London, Warsaw- (F/M) | London, UK   | Full-time         | 139216.0        | 2023-04-21 10:38:48   | AccorCorpo    |
+| 307234  | Finance Data Analytics Manager   | Manchester, UK         | Full-time         | 132500.0        | 2023-04-01 12:20:22   | AJ Bell       |
+| 178006  | Data Analyst - (Ratings Ops)     | London, UK             | Full-time         | 111175.0        | 2023-05-17 01:21:58   | Sylvera       |
+| 4851    | Business Intelligence Data Analyst | London, UK           | Full-time         | 111175.0        | 2023-03-24 10:22:34   | Ocorian       |
+| 1396666 | Data Analyst - Financial services | Newcastle upon Tyne, UK | Full-time        | 111175.0        | 2023-02-28 14:23:24   | Version 1     |
+
+### Skills Demand Data:
+
+| skills   | demand_count |
+|----------|--------------|
+| sql      | 3072         |
+| excel    | 3071         |
+| power bi | 2010         |
+| python   | 1385         |
+| tableau  | 1077         |
+
+### Skills Demand and Salary Data:
+
+| skill_id | skills      | demand_count | salary_year_avg |
+|----------|-------------|--------------|-----------------|
+| 76       | aws         | 191          | 138087.50       |
+| 79       | oracle      | 175          | 124891.67       |
+| 61       | sql server  | 272          | 120378.50       |
+| 74       | azure       | 476          | 115826.40       |
+| 196      | powerpoint  | 383          | 105837.50       |
+| 105      | gdpr        | 215          | 105000.00       |
+| 184      | dax         | 198          | 105000.00       |
+| 183      | power bi    | 2010         | 102025.00       |
+| 195      | sharepoint  | 119          | 100500.00       |
+| 215      | flow        | 150          | 99383.00        |
+| 197      | ssrs        | 127          | 98500.00        |
+| 185      | looker      | 124          | 97534.20        |
+| 1        | python      | 1385         | 96618.88        |
+| 0        | sql         | 3072         | 93984.84        |
+| 5        | r           | 710          | 90473.43        |
+| 22       | vba         | 239          | 85925.00        |
+| 188      | word        | 369          | 85750.00        |
+| 182      | tableau     | 1077         | 84361.50        |
+| 181      | excel       | 3071         | 83892.00        |
+
+
 ## Database Management
 
 ### Tools Used:
